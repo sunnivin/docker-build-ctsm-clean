@@ -90,7 +90,7 @@ done
 
 # check for missing inputs and set defaults
 compset="${compset:-I2000Clm50FatesCru}"
-start_year="${start_year:-'2004-01-01'}"
+start_year="${start_year:-2004-01-01}"
 num_years="${num_years:-2}"
 rtype="${rtype:-startup}"
 met_start="${met_start:-2004}"
