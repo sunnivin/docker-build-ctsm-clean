@@ -19,7 +19,7 @@
 # --met_end Last year of met forcing data to use
 # ** The combination of met_start & met_end define the window of met forcing years for
 #    the model simulation where 2010-2014 would be those years would be recycled over
-#    the simulation period. Helpful to reduce the number of files to download in a 
+#    the simulation period. Helpful to reduce the number of files to download in a
 #    simple test case.  Full range is 1901-2014
 # --output_vars Can use this to define a text file in the /scripts/ directory
 #   containing a list of model output variables to enable
@@ -89,7 +89,7 @@ esac
 done
 
 # check for missing inputs and set defaults
-compset="${compset:-I2000Clm50FatesCruGs}"
+compset="${compset:-I2000Clm50FatesCru}"
 start_year="${start_year:-'2004-01-01'}"
 num_years="${num_years:-2}"
 rtype="${rtype:-startup}"
